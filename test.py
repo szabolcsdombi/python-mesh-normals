@@ -1,6 +1,6 @@
-import mesh_normals
-
 import numpy as np
+
+import mesh_normals
 
 mesh = np.array([
     [0.0, 0.0, 0.0],
