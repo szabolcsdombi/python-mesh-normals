@@ -17,13 +17,15 @@ python setup.py develop
 ```py
 import mesh_normals
 
-mesh = np.array([  # vertices
+# vertices
+mesh = np.array([
     [1.0, 0.0, 0.0],
     [0.0, 1.0, 0.0],
     [0.0, 0.0, 1.0],
 ], dtype='f4')
 
-index = np.array([  # triangles
+# faces
+index = np.array([
     [0, 1, 2],
 ], dtype='i4')
 
